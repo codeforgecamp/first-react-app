@@ -7,7 +7,53 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-box {
+  background-color: #f0efe9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-box {
+  width: 350px;
+  background-color: #fff;
+  min-height: 500px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(238, 238, 238);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item .check {
+  border: 5px solid #ccc;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.todo-item.done h3 {
+	color: #ccc;
+}
+
+.todo-item.done .check {
+	border-color: rgb(18, 204, 18) !important;
 }

@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.tobi-app {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d525d;
+  color: #fff;
+  font-size: larger;
+  font-weight: bold;
+}
