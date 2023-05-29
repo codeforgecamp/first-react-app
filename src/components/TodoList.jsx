@@ -1,7 +1,8 @@
 import TodoItem from "./TodoItem";
 import { data } from "./data";
 
-function TodoList() {
+// function TodoList() {
+const TodoList = () => {
   return (
     <div className="main-box">
       <div className="todo-box">
